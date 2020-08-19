@@ -14,8 +14,8 @@ export default createGlobalStyle`
   }
 
   body{
-    background: ${ ({ theme }) => theme.colors.background};
-    color:${ ({ theme }) => theme.colors.grey};
+    background: ${({ theme }) => theme.colors.background};
+    color: ${({ theme }) => theme.colors.grey};
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
     -moz-osx-font-smoothing: grayscale;
@@ -24,8 +24,8 @@ export default createGlobalStyle`
   body, #root {
     min-height: 100vh;
     position: relative;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
   }
 
   body, input, button{
